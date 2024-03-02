@@ -13,7 +13,7 @@ function Aboutus() {
             <h2 className="h1 mb-3">Get in touch</h2>
             <p className="lead fs-4 text-secondary mb-5">
             If you are interested in our services, please contact us today to schedule a free initial consultation. 
-Email us at info@rupeestance.com, or fill out the online enquiry form on our website. We will get 
+Email us at <span className='fs-3 ' style={{fontWeight:"bolder"}}>info@rupeestance.com</span> , or fill out the online enquiry form on our website. We will get 
 back to you as soon as possible and answer any questions you may have. We look forward to 
 hearing from you and helping you achieve your financial goals
 </p>

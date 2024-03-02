@@ -95,7 +95,7 @@ function Footer() {
     &copy; Copyright <strong><span>Rupee₹stance</span></strong>. All Rights Reserved
   </div>
   <div className="credits text-center">
-    Designed by <a href="#">Techfinad pvt.limt</a>
+    Designed by < a href="#">Techfinad pvt.limt</a>
   </div>
 </div>
 
