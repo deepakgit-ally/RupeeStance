@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import './NavbarActions.css';
+import { Dropdown, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import Logo from "../../Assets/Images/Red with X Band Logo (1).png"
 
 const NavbarActions = () => {
@@ -26,7 +28,18 @@ const NavbarActions = () => {
       <ul className={isMenuActive ? 'menu active' : 'menu'} style={{
         margin: "10px"
       }}>
-        <li><a href="#">Loans</a></li>
+        <Dropdown>
+          <Dropdown.Toggle id="dropdown-basic" variant="success" >
+            Loans
+          </Dropdown.Toggle>
+
+          <Dropdown.Menu>
+            <Dropdown.Item as={Link} to='/src/Component/Lons/TwoWheelerLoan.jsx'> 2-Wheeler Loan</Dropdown.Item>
+            <Dropdown.Item as={Link} to='/src/Component/Lons/CarLoan.jsx'>Car loan</Dropdown.Item>
+            <Dropdown.Item as={Link} to='/src/Component/Lons/Education.jsx'>Education Loan</Dropdown.Item>
+            <Dropdown.Item as={Link} to='/src/Component/Lons/HomeLoan.jsx'>Home Loan</Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
         <li><a href="#">Mutual funds</a></li>
         <li><a href="#">Deposits</a></li>
         <li><a href="#">Bullion</a></li>
