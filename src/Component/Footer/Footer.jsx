@@ -6,10 +6,10 @@ import Logo from '../../Assets/Images/Red with X Band Logo (1).png';
 function Footer() {
   return (
     <>
-      <footer id="footer" className=" rounded-4" 
-      style={{
-        backgroundColor: "rgba(203, 218, 216, 0.76)",
-      }}
+      <footer id="footer" className=" rounded-4"
+        style={{
+          backgroundColor: "rgba(203, 218, 216, 0.76)",
+        }}
       >
         <div className="footer-top">
           <div className="container">
@@ -57,49 +57,49 @@ function Footer() {
               </div>
 
               <div className="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i className="fa fa-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i className="fa fa-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i className="fa fa-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i className="fa fa-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i className="fa fa-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
+                <h4>Useful Links</h4>
+                <ul>
+                  <li><i className="fa fa-chevron-right"></i> <a href="#">Home</a></li>
+                  <li><i className="fa fa-chevron-right"></i> <a href="#">About us</a></li>
+                  <li><i className="fa fa-chevron-right"></i> <a href="#">Services</a></li>
+                  <li><i className="fa fa-chevron-right"></i> <a href="#">Terms of service</a></li>
+                  <li><i className="fa fa-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                </ul>
+              </div>
 
-          <div className="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i className="fa fa-chevron-right"></i> <a href="#">mutual funds</a></li>
-              <li><i className="fa fa-chevron-right"></i> <a href="#">fsot</a></li>
-              <li><i className="fa fa-chevron-right"></i> <a href="#">Stocks</a></li>
-              <li><i className="fa fa-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i className="fa fa-chevron-right"></i> <a href="#">Pension schemes</a></li>
-            </ul>
-          </div>
+              <div className="col-lg-3 col-md-6 footer-links">
+                <h4>Our Services</h4>
+                <ul>
+                  <li><i className="fa fa-chevron-right"></i> <a href="#">mutual funds</a></li>
+                  <li><i className="fa fa-chevron-right"></i> <a href="#">fsot</a></li>
+                  <li><i className="fa fa-chevron-right"></i> <a href="#">Stocks</a></li>
+                  <li><i className="fa fa-chevron-right"></i> <a href="#">Marketing</a></li>
+                  <li><i className="fa fa-chevron-right"></i> <a href="#">Pension schemes</a></li>
+                </ul>
+              </div>
 
-          <div className="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Team Rupee₹stance contact you </p>
-            <form action="" method="post">
-              <input type="email" name="email" /><input type="submit" value="Subscribe" />
-            </form>
+              <div className="col-lg-4 col-md-6 footer-newsletter">
+                <h4>Our Newsletter</h4>
+                <p>Team Rupee₹stance contact you </p>
+                <form action="" method="post">
+                  <input type="email" name="email" /><input type="submit" value="Subscribe" />
+                </form>
 
-          </div>
+              </div>
             </div>
           </div>
         </div>
-<hr/>
+        <hr />
         <div className="container text-center">
-  <div className="copyright text-center">
-    &copy; Copyright <strong><span>Rupee₹stance</span></strong>. All Rights Reserved
-  </div>
-  <div className="credits text-center">
-    Designed by < a href="#">Techfinad pvt.limt</a>
-  </div>
-</div>
+          <div className="copyright text-center">
+            &copy; Copyright <strong><span>Rupee₹stance</span></strong>. All Rights Reserved
+          </div>
+          <div className="credits text-center">
+            Designed by < a href="#">Techfinad pvt.limt</a>
+          </div>
+        </div>
 
-  
+
       </footer>
     </>
   );
