@@ -10,7 +10,7 @@ const FinancialServices = () => {
     ]);
     return (
         <div className='bg-light'>
-            <Container>
+            <Container className='p-2'>
                 <Row>
                     <Col md={6} >
                         <h2 className='text-center'>What We Do</h2>
@@ -21,9 +21,11 @@ const FinancialServices = () => {
                             relevant and effective. We cover all aspects of their financial life.
                         </p>
                     </Col>
-                    <Col md={6}>
+                    <Col md={6} >
                         <h3 className='text-center'>Services Offered</h3>
-                        <div className='' id='Shareholding'>
+                        <div className='rounded p-2 border-3' style={{
+                        background:"rgb(233, 150, 122)"
+                    }} id='Shareholding'>
                             <ul className='list-unstyled'>
                                 {faqs.map((faq) => (
                                     <li key={faq.id} className='mb-3'>

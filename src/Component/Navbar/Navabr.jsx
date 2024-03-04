@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import HeroImage from "../../Assets/Images/hero-bg.png"
-import RupeeIcon from "../../Assets/Images/SL-020622-4930-02.jpg"
+import RupeeIcon from "../../Assets/Images/Rupee1.png"
 import Logo from "../../Assets/Images/Red with X Band Logo (1).png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
