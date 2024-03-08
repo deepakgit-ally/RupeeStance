@@ -1,10 +1,10 @@
 import React from 'react'
-import NavbarActions from '../Navbar/NavbarActions'
+import Navabr from '../Navbar/Navabr'
 import Footer from '../Footer/Footer'
 function Education() {
   return (
     <>
-      <NavbarActions/>
+      <Navabr/>
    <div className='container'>
   
     <div >

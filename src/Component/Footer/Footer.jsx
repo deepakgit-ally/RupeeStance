@@ -7,9 +7,7 @@ function Footer() {
   return (
     <>
       <footer id="footer" className=" rounded-4"
-        style={{
-          backgroundColor: "rgba(203, 218, 216, 0.76)",
-        }}
+       
       >
         <div className="footer-top">
           <div className="container">

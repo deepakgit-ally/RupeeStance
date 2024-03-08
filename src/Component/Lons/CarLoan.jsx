@@ -1,10 +1,10 @@
 import React from 'react'
-import NavbarActions from '../Navbar/NavbarActions'
+import Navabr from '../Navbar/Navabr'
 import Footer from '../Footer/Footer'
 export default function CarLoan() {
   return (
     <>
-    <NavbarActions/>
+    <Navabr/>
        <div className='container .bg-light'>
         <h1 className='text-center'>Car Loan</h1>
         <p>
