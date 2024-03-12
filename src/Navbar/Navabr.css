@@ -1,0 +1,119 @@
+/* Common styles for dropdown button */
+#dropdown-basic {
+  background-color: transparent;
+  border: none;
+  color: black;
+}
+
+/* Customize dropdown toggle appearance */
+#dropdown-basic > .btn-success {
+  border: 1px solid #28a745; /* Change border color */
+}
+
+/* Show all items on hover */
+#dropdown-basic:hover .dropdown-menu {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Customize dropdown menu appearance */
+#dropdown-basic .dropdown-menu {
+  display: none; /* Hide by default */
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease; /* Add a smooth transition effect */
+}
+
+#dropdown-basic .dropdown-item {
+  color: #333; /* Change text color */
+}
+
+#dropdown-basic .dropdown-item:hover {
+  background-color: #28a745; /* Change background color on hover */
+  color: #fff; /* Change text color on hover */
+}
+
+/* Additional styles for dropend alignment */
+.dropend .dropdown-toggle {
+  margin-left: 1em;
+}
+
+/* Hover styles for dropdown items */
+.dropdown-item:hover {
+  background-color: lightsalmon;
+  color: #fff;
+}
+
+
+
+/* Mobile and Tablet View */
+@media (max-width: 1023px) {
+  .menu-icon {
+    display: block !important; /* Show the menu icon */
+    right: 0;
+  }
+
+
+  nav ul  {
+    display: none ;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+   /* Adjust as needed */
+    background-color: #fff; /* Set background color for mobile and tablet menu */
+    padding: 10px;
+    margin-right: unset;
+  
+    overflow: hidden;
+  }
+
+  ul.active {
+    display: flex; /* Show the menu items when active */
+  }
+
+  ul li {
+    margin: 5px 0;
+  }
+
+
+
+  /* Adjust the top position as needed */
+  ul.active {
+    top: 80px;
+  }
+}
+@media  (max-width :480px) {
+  .menu-icon{
+    display: flex;
+  }
+  nav{
+    flex-direction: column;
+    align-items: start;
+  }
+  nav ul{
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0.25rem;
+    display: none  !important;
+  }
+  nav ul li {
+    width: 100%;
+    text-align: center; 
+    
+  }
+
+  nav ul.active{
+    display: flex;
+  }
+}
+.menu-icon {
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-left: auto;
+  padding: 10px;
+}
+
+.menu-icon {
+  display: none;
+}

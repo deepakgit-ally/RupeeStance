@@ -1,12 +1,12 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faFacebook, faInstagram, faSkype, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import Logo from '../../Assets/Images/Red with X Band Logo (1).png';
+import Logo from '../../Assets/Images/logo.png';
 
 function Footer() {
   return (
     <>
-      <footer id="footer" className=" rounded-4"
+      <footer id="footer" className=" rounded-4 mt-3"
        
       >
         <div className="footer-top">
@@ -15,8 +15,8 @@ function Footer() {
               <a className="navbar-brand ms-2 rounded" href="#">
                 <img
                   src={Logo}
-                  width="70"
-                  height="75"
+                  width="100"
+               
                   alt=""
                   className="rounded"
                   style={{
@@ -27,12 +27,11 @@ function Footer() {
               <div className="col-lg-3 col-md-6">
                 <div className="footer-info">
                   <p>
-                    A108 Adam Street <br />
-                    NY 535022, USA
+                    No 2201,22th Floor <br />
+                  West, Greater Noida,Uttar Pradesh 201318
                     <br />
-                    <br />
-                    <strong>Phone:</strong> +1 5589 55488 55<br />
-                    <strong>Email:</strong> info@example.com<br />
+                    <strong>Phone:</strong> +91 9773727566<br />
+                    <strong>Email:</strong> info@rupeestance.com<br />
                   </p>
                   <div className="social-links mt-3">
                     <a href="#" className="twitter">
@@ -68,8 +67,8 @@ function Footer() {
               <div className="col-lg-3 col-md-6 footer-links">
                 <h4>Our Services</h4>
                 <ul>
-                  <li><i className="fa fa-chevron-right"></i> <a href="#">mutual funds</a></li>
-                  <li><i className="fa fa-chevron-right"></i> <a href="#">fsot</a></li>
+                  <li><i className="fa fa-chevron-right"></i> <a href="#">Mutual funds</a></li>
+                  <li><i className="fa fa-chevron-right"></i> <a href="#">F&O</a></li>
                   <li><i className="fa fa-chevron-right"></i> <a href="#">Stocks</a></li>
                   <li><i className="fa fa-chevron-right"></i> <a href="#">Marketing</a></li>
                   <li><i className="fa fa-chevron-right"></i> <a href="#">Pension schemes</a></li>
@@ -92,9 +91,7 @@ function Footer() {
           <div className="copyright text-center">
             &copy; Copyright <strong><span>Rupee₹stance</span></strong>. All Rights Reserved
           </div>
-          <div className="credits text-center">
-            Designed by < a href="#">Techfinad pvt.limt</a>
-          </div>
+         
         </div>
 
 

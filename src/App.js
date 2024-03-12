@@ -1,28 +1,28 @@
 
 import React from 'react';
 import Layout from './Component/Layout/Layout.jsx';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import TwoWheelerLoan from './Component/Lons/TwoWheelerLoan';
-import CarLoan from './Component/Lons/CarLoan.jsx';
-import Education from './Component/Lons/Education.jsx';
-import HomeLoan from './Component/Lons/HomeLoan.jsx';
-import HdfcNavbar from './Component/Hdfc/HdfcN.jsx';
-import StockBroker from './Component/Amc/StockBroker.jsx';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import TwoWheelerLoan from './Lons/TwoWheelerLoan.jsx';
+import CarLoan from './Lons/CarLoan.jsx';
+import Education from './Lons/Education.jsx';
+import HomeLoan from './Lons/HomeLoan.jsx';
+
+
+import Aboutus from './Component/Content/Contactus.jsx';
 
 function App() {
   return (
     <>
-      <Router>
+      <BrowserRouter>
         <Routes>
         <Route excte path='/' element={<Layout />} />
-       <Route path='/src/Component/Lons/TwoWheelerLoan.jsx' element={<TwoWheelerLoan/>} />
-       <Route path='/src/Component/Lons/CarLoan.jsx' element={<CarLoan/>} />
-       <Route path='/src/Component/Lons/Education.jsx' element={<Education/>} />
-       <Route path='/src/Component/Lons/HomeLoan.jsx' element={<HomeLoan/>} />
-       <Route path='/src/Component/Hdfc/HdfcN.jsx' element={<HdfcNavbar/>} />
-       <Route path='/src/Component/Amc/StockBroker.jsx' element={<StockBroker/>}/>
+       <Route path='Loans/two-WheelerLoan' element={<TwoWheelerLoan/>} />
+       <Route path='Loans/car-Loan' element={<CarLoan/>} />
+       <Route path='Loans/education-Loan' element={<Education/>} />
+       <Route path='Loans/home-Loan' element={<HomeLoan/>} />
+       <Route path='contactus' element={<Aboutus/>} />
         </Routes>
-      </Router>
+      </BrowserRouter>
    
     </>
   );

@@ -1,16 +1,18 @@
 import React from 'react'
-
+import Navabr from '../../Navbar/Navabr'
+import Footer from "../Footer/Footer"
 function Aboutus() {
     return (
         <>
-            <section className=" py-3 py-md-5">
+        <Navabr/>
+            <section className=" py-3 py-md-5 "style={{backgroundColor:"#FEF8DD"}}>
                 <div className="container">
                     <div className="row gy-3 gy-md-4 gy-lg-0 align-items-md-center">
                         <div className="col-12 col-lg-6">
                             <div className="row justify-content-xl-center">
                                 <div className="col-12 col-xl-11">
-                                    <h2 className="h1 mb-3">Get in touch</h2>
-                                    <p className="lead fs-4 text-secondary mb-5">
+                                    <h2 className="h1 mb-3 text-center">Get in touch</h2>
+                                    <p className="lead fs-4  mb-5">
                                         If you are interested in our services, please contact us today to schedule a free initial consultation.
                                         Email us at <span className='fs-3 ' style={{ fontWeight: "bolder" }}>info@rupeestance.com</span> , or fill out the online enquiry form on our website. We will get
                                         back to you as soon as possible and answer any questions you may have. We look forward to
@@ -65,10 +67,11 @@ function Aboutus() {
                                     </div>
                                 </form>
                             </div>
-                        </div>
+                        </div> 
                     </div>
                 </div>
             </section>
+            <Footer/>
         </>
     )
 }

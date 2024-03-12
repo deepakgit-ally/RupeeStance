@@ -1,6 +1,6 @@
 import React from 'react'
-import Navabr from '../Navbar/Navabr';
-import Footer from '../Footer/Footer';
+import Navabr from '../Navbar/Navabr'
+import Footer from '../Component/Footer/Footer'
 function TwoWheelerLoan() {
   return (
     <>
@@ -11,7 +11,7 @@ function TwoWheelerLoan() {
         </div>
         <div >
 
-          <p className='text-center wrod-nowrap'>Do you have a dream of buying your superbike? But do not have the money to buy the bike? Don't worry; enroll for a two-wheeler loan and begin riding without having to worry about paperwork or lengthy processing times.
+          <p className=' wrod-nowrap'>Do you have a dream of buying your superbike? But do not have the money to buy the bike? Don't worry; enroll for a two-wheeler loan and begin riding without having to worry about paperwork or lengthy processing times.
             Many people use their bikes for purposes other than transportation. It's a reliable partner and close friend. Using a bike is quick, easy, and hassle-free; you may avoid paying a large portion of your income for taxi rides or using crowded transportation systems. Additionally, having a bike provides the first experience of freedom for several young people.
             Biking is an amazing experience, particularly for youngsters. Everyone wants to own their bike once in their lifetime. Whatever your reason for owning a bike, it is necessary to fulfill your desire without putting strain on your pocket.
             Banks or financial institutions offer the simplest financing options for bikes. Getting a two-wheeler loan is an easy and simple process. Many banks also provide flexible tenure options and affordable interest rates.
@@ -28,11 +28,13 @@ function TwoWheelerLoan() {
           <p>The lowest interest rates on bike loans are provided by many Indian banks and NBFCs. To choose the best deal, people may thus compare the interest rates on two-wheeler loans currently available. The interest rate on the lowest bike loan starts at 6.2%. below are some of the banks offering the loan at affordable rates:
 
           </p>
-          <table border="1" cellPadding={4} className='container'>
-            <tr>
+          <table border="1" cellPadding={4} className='container table table-bordered'>
+            <thead>  <tr>
               <th>Bank name</th>
               <th>Interest rate</th>
             </tr>
+            </thead>
+          <tbody>
             <tr>
               <td>ICICI Bank</td>
               <td>10.05% p.a. onwards</td>
@@ -73,6 +75,7 @@ function TwoWheelerLoan() {
               <td>State Bank of India</td>
               <td>12.90% p.a. onwards</td>
             </tr>
+            </tbody>
           </table>
 
         </div>

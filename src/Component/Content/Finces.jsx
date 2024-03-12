@@ -41,8 +41,10 @@ const FinancialServices = () => {
                 </Row>
                 <div className=''>
                     <h3 className='text-center'>Who We Are</h3>
-                    <p className='text-center fs-3'>We are a team of qualified and experienced financial advisors who are committed to delivering
-                        high-quality advice and guidance to our clients.</p>
+                    <p className='text-center fs-3'>
+                        We are a team of qualified and experienced financial advisors who are committed to delivering
+                        high-quality advice and guidance to our clients.
+                    </p>
                 </div>
             </Container>
         </div>

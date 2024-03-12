@@ -1,12 +1,12 @@
 import React from 'react'
-import Footer from '../Footer/Footer'
 import Navabr from '../Navbar/Navabr'
+import Footer from '../Component/Footer/Footer'
 
 function HomeLoan() {
   return (
   <>
   <Navabr/>
-  <div className='container bg-light'>
+  <div className='container'>
     <div>
         <h1 className='text-center'>Home Loan</h1>
     </div>

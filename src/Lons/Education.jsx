@@ -1,6 +1,6 @@
 import React from 'react'
 import Navabr from '../Navbar/Navabr'
-import Footer from '../Footer/Footer'
+import Footer from '../Component/Footer/Footer'
 function Education() {
   return (
     <>

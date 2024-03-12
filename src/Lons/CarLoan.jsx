@@ -1,6 +1,6 @@
 import React from 'react'
 import Navabr from '../Navbar/Navabr'
-import Footer from '../Footer/Footer'
+import Footer from '../Component/Footer/Footer'
 export default function CarLoan() {
   return (
     <>
@@ -101,12 +101,14 @@ You need to have a reasonable debt-to-income ratio (DTI) and a minimal monthly p
      
 
         <h2>India's Best Bank for Car Loans</h2>
-        <table border="1">
-      
-    <tr>
+        <table border="1" className='table table-bordered'>
+      <thead>
+      <tr>
         <th>Bank Name</th>
         <th>Best Car Loan Interest Rate</th>
     </tr>
+      </thead>
+   <tbody>
     <tr>
         <td>State Bank of India</td>
         <td>From 8.65%</td>
@@ -135,6 +137,7 @@ You need to have a reasonable debt-to-income ratio (DTI) and a minimal monthly p
         <td>Bank of Baroda</td>
         <td>From 8.65%</td>
     </tr>
+    </tbody>
 </table>
 
 
