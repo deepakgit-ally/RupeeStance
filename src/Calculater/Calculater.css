@@ -1,0 +1,68 @@
+.cis93SliderTrack {
+    height: 4px;
+    position: relative;
+    background: ;
+    margin: 17px 0;
+}
+
+.cis93SliderThumb {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    top: 3px;
+    outline: none;
+    background: black;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+:root {
+    --accent-color: #EAEAEA;
+    --primary-color: #28411B;
+    --primary-font: "JetBrains Mono";
+  }
+  
+  #progress-bar--container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #progress-bar--container svg {
+    width: 400px;
+  }
+  
+  #progress--circle {
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    stroke-linecap: round;
+  }
+  
+  #progress--text {
+    font-family: var(--primary-font);
+    fill: var(--primary-color);
+    font-weight: 750;
+    font-size: 5.5px;
+    transform-origin: center;
+    transform: rotate(90deg);
+  }
+  
+  svg {
+    transform: rotate(-90deg);
+  }
+  
+  .meter-info {
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px 20px;
+  }
+  
+  #meter--ranger {
+    width: 100%;
+  }
+  

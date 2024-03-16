@@ -10,6 +10,7 @@ function Layout() {
   <Navabr/>
   <Landing />
   <ServicesSection/>
+ 
       <Footer />
     </div>
   )

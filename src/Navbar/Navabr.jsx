@@ -35,7 +35,7 @@ function Navabr() {
                             <NavDropdown.Item as={Link} to='/Loans/home-Loan'>Home Loan</NavDropdown.Item>
                         </NavDropdown>
                         {/* Add similar NavDropdown components for other menu items */}
-                        <Nav.Link className="nav-link">Mutual Fund</Nav.Link>
+                        <Link to="/mutualfundcalcultor" className="nav-link">Mutual Fund</Link>
                         <Nav.Link className="nav-link">Deposits</Nav.Link>
                         <Nav.Link className="nav-link">Bullion</Nav.Link>
                         <Nav.Link className="nav-link">Stocks</Nav.Link>

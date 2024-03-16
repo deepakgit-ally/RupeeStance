@@ -1,20 +1,24 @@
 import React from 'react'
 import Navabr from '../Navbar/Navabr'
 import Footer from '../Component/Footer/Footer'
+import { Helmet } from 'react-helmet'
+
 export default function CarLoan() {
   return (
     <>
     <Navabr/>
+    <Helmet>
+        <title>CarLoan</title>
+        <meta name='description' content='my CarLoan page' />
+        <link rel='canonical'  href='Loans/CarLoan' />
+      </Helmet>
        <div className='container .bg-light'>
         <h1 className='text-center'>Car Loan</h1>
         <p>
         Purchasing a car is your first huge financial commitment. It's similar to setting off on a path to a rich and happy life. If you don't have enough savings to buy a car in one go, a car loan will be the better option for you. You should do extensive research and understand how to negotiate the best car loan terms. Learn the fundamentals of this loan here, then apply for a vehicle loan quickly and easily.
 These days, nearly all banks provide car loans with competitive interest rates. It is currently rather simple to obtain a car loan and make EMI payments without affecting a person's finances, depending on their affordability.
 Car loans are offered with up to an eight-year repayment period and competitive interest rates.  To select the best option, examine the interest rates on loans being given by different lenders. Examine several options and select the best auto loan for you and your household. Furthermore, keeping up a high credit score frequently leads to better lending terms and interest rates.
-
         </p>
-
-      
   <div>
         <h2>Advantages of Car Loan</h2>
         <ul>
@@ -24,18 +28,12 @@ Car loans are offered with up to an eight-year repayment period and competitive 
         </ul>
         <p>Nowadays, applying for a car loan may be done entirely online. Before making a decision, it is crucial to evaluate the services of several banks. To gain a comprehensive understanding of the vehicle loan procedure, you may also browse websites owned by other parties. You can make a clear decision by taking into account crucial elements including interest rates, down payments, loan terms, and duration.</p>
 </div>
-     
-
         <h2>How Do I Apply?</h2>
         <ul>
             <li>Go directly to the bank's branch.</li>
             <li>Apply online via the mobile or internet banking interface of your bank.</li>
             <li>Obtain financing from the car dealer.</li>
-           
         </ul>
-
-    
-
         <h2>Basic Documents Required</h2>
         <ul>
             <li>Minimum age: 18</li>
@@ -48,16 +46,12 @@ Car loans are offered with up to an eight-year repayment period and competitive 
             <li>Signature verification</li>
             <li>Two passport-sized photographs</li>
         </ul>
-
-   
-
         <h2>Factors Affecting Car Loan</h2>
         <div>
         <h3>Down Payment</h3>
         <p>There is a particular margin associated with each car loan. Here, "margin" refers to the sum of money or the portion of the price of the on-road vehicle that you will have to pay out of pocket. Even while there are credit plans with 100% funding accessible, they come with restrictions
 Saving money for a down payment is a good idea because it will allow you to borrow less money and repay the bank less interest overall, which will lower the cost of owning a car. Additionally, lenders would prefer that you pay a particular amount. This reassures the lenders that you are responsible for money management and planning, and that you won't abruptly stop making repayments.
 Age of vehicle
-
 When it comes to used car loans, the condition of the vehicle has a significant impact on the interest rate and can determine whether the loan application is approved or denied.
 On-Time Bill Payment
 You need to have a reasonable debt-to-income ratio (DTI) and a minimal monthly pre-tax income for you to qualify for a loan to buy your ideal car. While changing one's income is typically not achievable, paying off all of your outstanding credit card debt can help your DTI. Ensure the loan terms are final to prevent being duped into an expensive payment situation.
@@ -97,9 +91,6 @@ You need to have a reasonable debt-to-income ratio (DTI) and a minimal monthly p
         Customers are advised to keep their EMIs under 20% of their income. For example, your monthly car loan payment should not be more than Rs. 8,000 if your income is Rs. 40,000.
     </p>
 </div>
-
-     
-
         <h2>India's Best Bank for Car Loans</h2>
         <table border="1" className='table table-bordered'>
       <thead>
@@ -139,8 +130,6 @@ You need to have a reasonable debt-to-income ratio (DTI) and a minimal monthly p
     </tr>
     </tbody>
 </table>
-
-
       <div>
     <h2>FAQs</h2>
     <ul>
@@ -175,7 +164,6 @@ You need to have a reasonable debt-to-income ratio (DTI) and a minimal monthly p
         </li>
     </ul>
 </div>
-
     </div>
     <Footer/>
     </>

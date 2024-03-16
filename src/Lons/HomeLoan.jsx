@@ -1,12 +1,19 @@
 import React from 'react'
 import Navabr from '../Navbar/Navabr'
 import Footer from '../Component/Footer/Footer'
+import { Helmet } from 'react-helmet'
 
 function HomeLoan() {
   return (
   <>
   <Navabr/>
   <div className='container'>
+  <Helmet>
+        <title>HomeLoan</title>
+        <meta name='description' content='my homeLoan ' />
+   
+        <link rel='canonical'  href='Loans/home-Loan' />
+      </Helmet>
     <div>
         <h1 className='text-center'>Home Loan</h1>
     </div>

@@ -1,16 +1,21 @@
 import React from 'react'
 import Navabr from '../Navbar/Navabr'
 import Footer from '../Component/Footer/Footer'
+import { Helmet } from 'react-helmet-async'
 function TwoWheelerLoan() {
   return (
     <>
+      <Helmet>
+        <title>TwoWheelerLoans</title>
+        <meta name='description' content='my twowheelerloan page' />
+        <link rel='canonical'  href='Loans/two-WheelerLoan' />
+      </Helmet>
       <Navabr />
       <div className='container'>
         <div>
           <h1 className='text-center'>2-Wheeler Loan</h1>
         </div>
         <div >
-
           <p className=' wrod-nowrap'>Do you have a dream of buying your superbike? But do not have the money to buy the bike? Don't worry; enroll for a two-wheeler loan and begin riding without having to worry about paperwork or lengthy processing times.
             Many people use their bikes for purposes other than transportation. It's a reliable partner and close friend. Using a bike is quick, easy, and hassle-free; you may avoid paying a large portion of your income for taxi rides or using crowded transportation systems. Additionally, having a bike provides the first experience of freedom for several young people.
             Biking is an amazing experience, particularly for youngsters. Everyone wants to own their bike once in their lifetime. Whatever your reason for owning a bike, it is necessary to fulfill your desire without putting strain on your pocket.
@@ -34,47 +39,47 @@ function TwoWheelerLoan() {
               <th>Interest rate</th>
             </tr>
             </thead>
-          <tbody>
-            <tr>
-              <td>ICICI Bank</td>
-              <td>10.05% p.a. onwards</td>
-            </tr>
-            <tr>
-              <td>IDFC First Bank</td>
-              <td>9.99% p.a. onwards</td>
-            </tr>
-            <tr>
-              <td>Axis Bank</td>
-              <td>11.00% p.a. onwards</td>
-            </tr>
-            <tr>
-              <td>Bank of India</td>
-              <td>8.75% p.a. onwards</td>
-            </tr>
-            <tr>
-              <td>Punjab National Bank</td>
-              <td>11.15% p.a. onwards</td>
-            </tr>
-            <tr>
-              <td>Canara Bank</td>
-              <td>11.35% p.a. onwards</td>
-            </tr>
-            <tr>
-              <td>Union Bank of India</td>
-              <td>12.40% p.a. onwards</td>
-            </tr>
-            <tr>
-              <td>Bank of Baroda</td>
-              <td>13.65% p.a. onwards</td>
-            </tr>
-            <tr>
-              <td>HDFC Bank</td>
-              <td>14.50% p.a. onwards</td>
-            </tr>
-            <tr>
-              <td>State Bank of India</td>
-              <td>12.90% p.a. onwards</td>
-            </tr>
+            <tbody>
+              <tr>
+                <td>ICICI Bank</td>
+                <td>10.05% p.a. onwards</td>
+              </tr>
+              <tr>
+                <td>IDFC First Bank</td>
+                <td>9.99% p.a. onwards</td>
+              </tr>
+              <tr>
+                <td>Axis Bank</td>
+                <td>11.00% p.a. onwards</td>
+              </tr>
+              <tr>
+                <td>Bank of India</td>
+                <td>8.75% p.a. onwards</td>
+              </tr>
+              <tr>
+                <td>Punjab National Bank</td>
+                <td>11.15% p.a. onwards</td>
+              </tr>
+              <tr>
+                <td>Canara Bank</td>
+                <td>11.35% p.a. onwards</td>
+              </tr>
+              <tr>
+                <td>Union Bank of India</td>
+                <td>12.40% p.a. onwards</td>
+              </tr>
+              <tr>
+                <td>Bank of Baroda</td>
+                <td>13.65% p.a. onwards</td>
+              </tr>
+              <tr>
+                <td>HDFC Bank</td>
+                <td>14.50% p.a. onwards</td>
+              </tr>
+              <tr>
+                <td>State Bank of India</td>
+                <td>12.90% p.a. onwards</td>
+              </tr>
             </tbody>
           </table>
 
@@ -155,7 +160,7 @@ function TwoWheelerLoan() {
           <p>Yes, a student may apply for a bike loan. The minimum age for applying for a two-wheeler loan is 18 years and a valid driver’s license.</p>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   )
 }

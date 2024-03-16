@@ -1,12 +1,30 @@
 import React from 'react'
 import Navabr from '../Navbar/Navabr'
 import Footer from '../Component/Footer/Footer'
+import { Helmet } from 'react-helmet'
 function Education() {
   return (
     <>
       <Navabr/>
    <div className='container'>
-  
+   <Helmet>
+  <title>Education</title>
+  <meta name='description' content='My education page' />
+  <link rel='canonical' href='Loans/education-Loan' />
+
+  {/* Open Graph Tags */}
+  <meta property='og:title' content='Education' />
+  <meta property='og:description' content='My education page' />
+  <meta property='og:image' content='url_to_your_image' />
+  <meta property='og:url' content='canonical_url' />
+
+  {/* Twitter Tags */}
+  <meta name='twitter:card' content='summary_large_image' />
+  <meta name='twitter:title' content='Education' />
+  <meta name='twitter:description' content='My education page' />
+  <meta name='twitter:image' content='url_to_your_image' />
+</Helmet>
+
     <div >
         <h1 className='text-center'>Education Loan</h1>
 
